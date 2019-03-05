@@ -10,6 +10,7 @@ COPY etc/xdebug.ini /usr/local/etc/php/conf.d/xdebug-cli.ini
 RUN set -xe \
     && apk add --no-cache --virtual .persistent-deps \
         zlib-dev \
+        libzip-dev \
         git \
         unzip \
     && docker-php-ext-install \
