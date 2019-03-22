@@ -1,4 +1,4 @@
-FROM ghettovoice/php:7.3-cli-dev
+FROM ghettovoice/php:7.1-cli-dev
 
 ARG COMPOSER_HOME /root/composer
 ARG COMPOSER_VERSION master

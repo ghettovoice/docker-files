@@ -1,4 +1,4 @@
-FROM prooph/php:7.3-cli-xdebug
+FROM prooph/php:7.1-cli-xdebug
 
 COPY etc/xdebug-cli.ini /usr/local/etc/php/conf.d/
 
